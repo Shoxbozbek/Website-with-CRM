@@ -1,0 +1,76 @@
+/* body {
+  background-color: #1b1c1d;
+}
+.clipboard {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 750px;
+  height: 750px;
+  background: linear-gradient(45deg, #1b1c1d 25%, transparent 25%), linear-gradient(315deg, #1b1c1d 25%, transparent 25%),linear-gradient(45deg, transparent 24%,#e45300 25%, #e45300 45%, transparent 45%), linear-gradient(315deg, transparent 24%,#e45300 25%, #e45300 45%, transparent 45%);
+  background-size: 3em 3em;
+  background-color: #1b1c1d;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+.clipboard {
+  animation: opaqueness 14s linear infinite;
+}
+@keyframes opaqueness {
+  0% {
+    opacity: 0.4;
+  } 50% {
+    opacity: 0.2;
+  } 100% {
+    opacity: 0.6;
+  }
+}
+.font-type {
+  font-family: 'Oi', cursive;
+}
+.title {
+  font-size: 5rem;
+}
+.subtitle {
+    font-size: 3rem;
+  }
+@media (max-width: 450px) {
+  .clipboard {
+    width: 350px;
+    height: 350px;
+  }
+  .title {
+    font-size: 2.4rem;
+  }
+  .subtitle {
+    font-size: 1.9rem;
+  }
+}
+.text-orange {
+  color: #e45300;
+}
+.text-pink {
+  color: #f6b1f2;
+}
+.text-almost-white {
+  color: #fefffd;
+} */
+
+body {
+  background-color: white;
+}
+.contaneir {
+  max-width: 1920px;
+}
+.btn1 {
+  position: absolute;
+  left: 1800px;
+}
+
+.img {
+  width: 414px;
+  height:250px;
+}
+.card {
+  height: 450px;
+}
